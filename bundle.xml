@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adapt_framework>
+  <bundle>
+    <label>Two Factor Authentication</label>
+    <name>twofactorauth</name>
+    <version>1.5.2</version>
+    <version_status>release</version_status>
+    <availability>public</availability>
+    <type>extension</type>
+    <namespace>\RobThree\Auth</namespace>
+    <description>Two Factor Authentication</description>
+    <copyright>2016 Rob Janssen</copyright>
+    <license>MIT</license>
+    <vendor>
+        <name>Adapt Framework</name>
+        <website>https://www.adaptframework.com</website>
+    </vendor>
+    <authors>
+        <author>
+            <name>Rob Janssen</name>
+        </author>
+    </authors>
+  </bundle>
+</adapt_framework>
