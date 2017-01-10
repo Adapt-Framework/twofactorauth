@@ -8,6 +8,8 @@
     <availability>public</availability>
     <type>extension</type>
     <namespace>\RobThree\Auth</namespace>
+    <version_status>release</version_status>
+    <availability>public</availability>
     <description>Two Factor Authentication</description>
     <copyright>2016 Rob Janssen</copyright>
     <license>MIT</license>
