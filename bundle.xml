@@ -36,6 +36,11 @@
             <name>Rob Janssen</name>
         </author>
     </authors>
+    <depends_on>
+        <bundle>
+            <name>vendor</name>
+        </bundle>
+    </depends_on>
   </bundle>
   <settings>
       <category name="Two Factor Authentication">
