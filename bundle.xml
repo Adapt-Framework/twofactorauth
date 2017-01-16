@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adapt_framework>
-  <bundle>
-    <label>Two Factor Authentication</label>
-    <name>twofactorauth</name>
-    <version>1.5.2</version>
-    <version_status>release</version_status>
-    <availability>public</availability>
-    <type>extension</type>
-    <load_paths>
-        <path>src/</path>
-        <path>src/Providers/Qr/</path>
-        <path>src/Providers/Rng/</path>
-    </load_paths>
-    <namespace>\RobThree\Auth</namespace>
-    <version_status>release</version_status>
-    <availability>public</availability>
-    <description>Two Factor Authentication</description>
-    <copyright>2016 Rob Janssen</copyright>
-    <license>MIT</license>
-    <depends_on>
+    <bundle>
+        <label>Two Factor Authentication</label>
+        <name>twofactorauth</name>
+        <version>1.5.2</version>
+        <version_status>release</version_status>
+        <availability>public</availability>
+        <type>extension</type>
+        <load_paths>
+            <path>src/</path>
+            <path>src/Providers/Qr/</path>
+            <path>src/Providers/Rng/</path>
+        </load_paths>
+        <namespace>\RobThree\Auth</namespace>
+        <version_status>release</version_status>
+        <availability>public</availability>
+        <description>Two Factor Authentication</description>
+        <copyright>2016 Rob Janssen</copyright>
+        <license>MIT</license>
+        <depends_on>
             <bundle>
                 <name>adapt</name>
                 <version>2</version>
@@ -26,34 +26,34 @@
             <bundle>
                 <name>vendor</name>
             </bundle>
-    </depends_on>
-    <vendor>
-        <name>Adapt Framework</name>
-        <website>https://www.adaptframework.com</website>
-    </vendor>
-    <authors>
-        <author>
-            <name>Rob Janssen</name>
-        </author>
-    </authors>
-    <depends_on>
-        <bundle>
-            <name>vendor</name>
-        </bundle>
-    </depends_on>
-  </bundle>
-  <settings>
-      <category name="Two Factor Authentication">
-          <setting>
-              <name>2fa.digits</name>
-              <label>How many digits should be required to authenticate?</label>
-              <default_value>6</default_value>
-          </setting>
-          <setting>
-              <name>2fa.period</name>
-              <label>How many seconds should the authentication code be valid for?</label>
-              <default_value>30</default_value>
-          </setting>
-      </category>
-  </settings>
+        </depends_on>
+        <vendor>
+            <name>Adapt Framework</name>
+            <website>https://www.adaptframework.com</website>
+        </vendor>
+        <authors>
+            <author>
+                <name>Rob Janssen</name>
+            </author>
+        </authors>
+        <depends_on>
+            <bundle>
+                <name>vendor</name>
+            </bundle>
+        </depends_on>
+        <settings>
+            <category name="Two Factor Athentication">
+                <setting>
+                    <name>2fa.digits</name>
+                    <label>How many digits should be required to authenticate?</label>
+                    <default_value>6</default_value>
+                </setting>
+                <setting>
+                    <name>2fa.period</name>
+                    <label>How many seconds should the authentication code be valid for?</label>
+                    <default_value>30</default_value>
+                </setting>
+            </category>
+        </settings>
+    </bundle>
 </adapt_framework>
