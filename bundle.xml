@@ -7,12 +7,26 @@
     <version_status>release</version_status>
     <availability>public</availability>
     <type>extension</type>
+    <load_paths>
+        <path>src/</path>
+        <path>src/Providers/Qr/</path>
+        <path>src/Providers/Rng/</path>
+    </load_paths>
     <namespace>\RobThree\Auth</namespace>
     <version_status>release</version_status>
     <availability>public</availability>
     <description>Two Factor Authentication</description>
     <copyright>2016 Rob Janssen</copyright>
     <license>MIT</license>
+    <depends_on>
+            <bundle>
+                <name>adapt</name>
+                <version>2</version>
+            </bundle>
+            <bundle>
+                <name>vendor</name>
+            </bundle>
+    </depends_on>
     <vendor>
         <name>Adapt Framework</name>
         <website>https://www.adaptframework.com</website>
@@ -23,4 +37,16 @@
         </author>
     </authors>
   </bundle>
+  <settings>
+      <category name="Two Factor Authentication">
+          <setting>
+              <name>2fa.digits</name>
+              <default_value>6</default_value>
+          </setting>
+          <setting>
+              <name>2fa.period</name>
+              <default_value>30</default_value>
+          </setting>
+      </category>
+  </settings>
 </adapt_framework>
