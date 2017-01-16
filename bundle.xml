@@ -46,10 +46,12 @@
       <category name="Two Factor Authentication">
           <setting>
               <name>2fa.digits</name>
+              <label>How many digits should be required to authenticate?</label>
               <default_value>6</default_value>
           </setting>
           <setting>
               <name>2fa.period</name>
+              <label>How many seconds should the authentication code be valid for?</label>
               <default_value>30</default_value>
           </setting>
       </category>
