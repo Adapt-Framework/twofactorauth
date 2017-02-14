@@ -36,11 +36,6 @@
                 <name>Rob Janssen</name>
             </author>
         </authors>
-        <depends_on>
-            <bundle>
-                <name>vendor</name>
-            </bundle>
-        </depends_on>
         <settings>
             <category name="Two Factor Athentication">
                 <setting>
