@@ -3,7 +3,7 @@
     <bundle>
         <label>Two Factor Authentication</label>
         <name>twofactorauth</name>
-        <version>1.5.2</version>
+        <version>1.0.0</version>
         <version_status>release</version_status>
         <availability>public</availability>
         <type>extension</type>
@@ -21,7 +21,7 @@
         <depends_on>
             <bundle>
                 <name>adapt</name>
-                <version>2</version>
+                <version>2.0</version>
             </bundle>
             <bundle>
                 <name>vendor</name>
